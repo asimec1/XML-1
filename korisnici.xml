@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Korisnici>
+    <Korisnik>
+        <id>1</id>
+        <ime_korisnika>Matija</ime_korisnika>
+        <prezime_korisnika>Đurekovec</prezime_korisnika>
+        <email_korisnika>mdurekove@tvz.hr</email_korisnika>
+        <username_korisnika>matija1233</username_korisnika>
+        <sifra_korisnika>admin</sifra_korisnika>
+    </Korisnik>
+</Korisnici>
