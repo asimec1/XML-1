@@ -1,0 +1,335 @@
+/* INDEX HTML */
+
+#center {
+    width:70%;
+    text-align: center;
+    margin: 0 auto;
+}
+body {
+    background-color: rgb(228 , 228 , 228);
+    font-family: 'Rockwell';
+}
+header {
+    background-color: rgb(10, 111, 190);
+    padding:5px ;
+    font-size:21px;
+    height:70px;
+}
+header img {
+    height: 50px;
+    padding:10px 0px 0px 0px;
+}
+header a {
+    text-decoration: none;
+    color:rgb(228 , 228 , 228);
+    display: block;
+    height: 100%;
+}
+footer {
+    clear:both;
+    background-color: rgb(10, 111, 190);
+    color:rgb(228 , 228 , 228);
+    padding:2px 0;
+}
+footer p {
+    text-align: left;
+    font-size:16px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float:left;
+}
+li {
+    display: inline-block;
+    padding:0 4px;
+}
+.lista_polozaj {
+    position: relative;
+    bottom: 15px;
+}
+#prijava_registracija {
+    clear:both;
+    position: relative;
+    bottom: 40px;
+    float:right;
+}
+main {
+    margin-top:20px;
+    min-height:688px;
+    clear:both;
+    padding:20px 0;
+}
+#welcome {
+    float:left;
+}
+#datum {
+    float:right;
+    margin-right: 32px;
+    opacity: 0.4;
+    font-size:20px;
+}
+.section_index {
+    text-align: left;
+}
+.section_index h2 {
+    width:100%;
+    float:left;
+    text-align:left;
+}
+.section_index article {
+    width:33%;
+    float:left;
+}
+.section_index article img,
+.section_index h3,
+.section_index p {
+    width:96%;
+    max-width: 600px;
+    height:auto;
+}
+.section_index article h3 {
+    font-size:23px;
+}
+.section_index article p {
+    font-size:19px;
+    position: relative;
+    bottom:12px;
+}
+.section_index a {
+    text-decoration: none;
+    color:black;
+}
+.blue-bar {
+    transform: rotateX(45deg);
+    transform: rotateZ(90deg);
+    height: 20px;
+    width: 40px;
+    margin-left: -16px;
+    margin-right: -2px;
+}
+.red-bar {
+    transform: rotateX(45deg);
+    transform: rotateZ(90deg);
+    height: 60px;
+    width: 50px;
+    margin-left: -25px;
+    margin-right: -10px;
+    position: relative;
+    top:20px;
+}
+.green-bar {
+    transform: rotateX(45deg);
+    transform: rotateZ(90deg);
+    height: 12px;
+    width: 40px;
+    margin-left: -16px;
+    position: relative;
+    bottom: 4px;
+}
+.yellow-bar {
+    transform: rotateX(45deg);
+    height: 80px;
+    width: 90px;
+    margin-left: -3px;
+    margin-right: -70px;
+    position: relative;
+    top: 29px;
+}
+
+/* VIJESTI */
+
+#section_vijesti img {
+    width:100%;
+    max-height: 700px;
+    padding:30px 0;
+    display:block;
+    opacity: 0.6;
+}
+#section_vijesti a {
+    text-decoration: none;
+}
+#section_vijesti {
+    display:block;
+    margin:0px;
+    padding:0px;
+    position: relative;
+    height:auto;
+    overflow-y: hidden;
+    overflow-x: auto;
+    word-wrap: normal;
+    white-space: nowrap;
+}
+.sredina {
+    width:100%;
+    position: relative;
+    float:left;
+}
+.sredina h2 {
+    color:red;
+    position: absolute;
+    font-size:48px;
+    top:40%;
+    border:1px solid red;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 5px -6px 0, 0px 5px 0, -3px -3px 0;
+    text-shadow: 0px 0px 15px;
+    font-weight: 900;
+    font-style: oblique;
+}
+.tehn {
+    left:35%;
+}
+.e-sp {
+    left:37%;
+}
+.gam , .yt{
+    left:39%;
+}
+.sredina h2:hover {
+    background: red;
+    color:rgb(81, 181, 248);
+    text-shadow:0px 0px 8px;
+    transition: background 250ms linear , color 500ms linear;
+}
+
+/* UNOS VIJESTI */
+
+textarea {
+    resize: none;
+}
+label{
+    font-size: 18px;
+}
+.kategorija {
+    font-size: 16px;
+}
+#arhiva {
+    height: 20px;
+    width: 20px;
+}
+#reset_submit {
+    height: 25px;
+    width: 80px;
+}
+.obavijest {
+    font-size:30px;
+    position: absolute;
+    top: 36%;
+    left: 30%;
+}
+
+/* SKRIPTA,CLANAK */
+
+#skripta {
+    width:70%;
+    margin:0 auto;
+    text-align: left;
+}
+#skripta img {
+    width:100%;
+}
+#skripta h2 {
+    font-size:26px;
+}
+#skripta h3 {
+    font-size: 22px;
+}
+#skripta p {
+    font-size: 20px;
+}
+
+/* KATEGORIJA */
+
+.section_kategorija h2 {
+    width:100%;
+    float:left;
+    text-align:left;
+}
+.section_kategorija article {
+    width:100%;
+    float:left;
+}
+.section_kategorija article img,
+.section_kategorija h3,
+.section_kategorija p {
+    width:100%;
+    max-width: 600px;
+    height:auto;
+    float:left;
+    padding:10px 30px 20px 0;
+}
+.section_kategorija article h3 {
+    font-size:26px;
+}
+.section_kategorija article p {
+    font-size:22px;
+    position: relative;
+    bottom:12px;
+}
+.section_kategorija a {
+    text-decoration: none;
+    color:black;
+}
+
+/* ADMINISTRACIJA */
+
+.obavijest_administracija {
+    font-size:30px;
+    position: absolute;
+    top: 36%;
+    left: 29%;
+}
+
+/* LOGIN */
+
+#login form {
+    position: absolute;
+    top:40%;
+    left:46%;
+}
+#login input {
+    padding:3px;
+}
+.prijava_tekst {
+    position: absolute;
+    top:38%;
+    left:42.5%;
+}
+.prijava_error {
+    position: absolute;
+    top:28%;
+    left:44.5%;
+    font-size:20px;
+}
+
+/* REGISTER */
+
+#register form {
+    position: absolute;
+    top:27%;
+    left:46%;
+}
+#register input {
+    padding: 3px;
+}
+.registracija_error {
+    position: absolute;
+    top:19%;
+    left:43.5%;
+    font-size:20px;
+}
+.registracija_user_error {
+    position: absolute;
+    top:19%;
+    left:41.5%;
+    font-size:20px;
+}
+.registracija_tekst {
+    position: absolute;
+    top:40%;
+    left:45%;
+    font-size: 20px;
+}
